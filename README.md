@@ -4,8 +4,7 @@ VOCA is a voice-activated prosthetic device that uses depth sensing and speech r
 
 # REPOSITORY STRUCTURE
 
-**voice/**
-- Voice activation code.
+**voice/** - Voice activation code.
 
 Run python speech.py (requires Azure API setup).
 
