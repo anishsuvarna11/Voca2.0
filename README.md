@@ -1,8 +1,8 @@
-VOCA: Voice-Activated Prosthetic Device
-OVERVIEW  
+## VOCA: Voice-Activated Prosthetic Device
+# OVERVIEW  
 VOCA is a voice-activated prosthetic device that uses depth sensing and speech recognition for object grasping and release. It integrates an Arduino system, Intel RealSense depth camera, and ultrasonic sensors to detect distances and execute grasping commands.
 
-REPOSITORY STRUCTURE
+# REPOSITORY STRUCTURE
 
 voice/ – Voice activation code.
 
@@ -20,7 +20,7 @@ camera/ – Intel RealSense depth camera testing code.
 
 basic_grasping_code/ – PyBullet simulation for grasping and movement functions.
 
-MATERIALS
+# MATERIALS
 
 Arduino Kit
 
@@ -40,7 +40,7 @@ Screws
 
 More...
 
-FUNCTIONALITY
+# FUNCTIONALITY
 
 Voice Commands: Simple grasp/release via speech recognition (Azure API).
 
@@ -48,7 +48,7 @@ Depth Sensing: Uses Intel RealSense + ultrasonic sensor to detect objects.
 
 Automated Grasping: When an object is within a set distance, VOCA initiates a grasp.
 
-SETUP
+# SETUP
 
 Install dependencies.
 
