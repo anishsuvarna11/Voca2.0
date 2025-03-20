@@ -1,4 +1,4 @@
-## VOCA: Voice-Activated Prosthetic Device
+# VOCA: Voice-Activated Prosthetic Device
 # OVERVIEW  
 VOCA is a voice-activated prosthetic device that uses depth sensing and speech recognition for object grasping and release. It integrates an Arduino system, Intel RealSense depth camera, and ultrasonic sensors to detect distances and execute grasping commands.
 
