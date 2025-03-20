@@ -4,21 +4,26 @@ VOCA is a voice-activated prosthetic device that uses depth sensing and speech r
 
 # REPOSITORY STRUCTURE
 
-voice/ – Voice activation code.
+**voice/**
+- Voice activation code.
 
 Run python speech.py (requires Azure API setup).
 
 
-cad/ – CAD files for the prototype and 4-bar linkage system.
+**cad/** 
+– CAD files for the prototype and 4-bar linkage system.
 
 
-arduino/ – Arduino code for servo control.
+**arduino/** 
+– Arduino code for servo control.
 
 
-camera/ – Intel RealSense depth camera testing code.
+**camera/** 
+– Intel RealSense depth camera testing code.
 
 
-basic_grasping_code/ – PyBullet simulation for grasping and movement functions.
+**basic_grasping_code/**
+– PyBullet simulation for grasping and movement functions.
 
 # MATERIALS
 
@@ -42,11 +47,14 @@ More...
 
 # FUNCTIONALITY
 
-Voice Commands: Simple grasp/release via speech recognition (Azure API).
+**Voice Commands:**
+Simple grasp/release via speech recognition (Azure API).
 
-Depth Sensing: Uses Intel RealSense + ultrasonic sensor to detect objects.
+**Depth Sensing:**
+Uses Intel RealSense + ultrasonic sensor to detect objects.
 
-Automated Grasping: When an object is within a set distance, VOCA initiates a grasp.
+**Automated Grasping:**
+When an object is within a set distance, VOCA initiates a grasp.
 
 # SETUP
 
